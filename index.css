@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* background-color: aqua; */
+    font-family:'Poppins',sans-serif;
+}
+.head{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    object-fit:cover;
+    margin-bottom:zero;
+    
+}
+.header_img{
+    width: 100%;
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+.header_img img{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: medium;
+
+}
+.nav-bar{
+    display: flex;
+    list-style: none;
+    font-weight: lighter;
+    gap: 1.5rem;;
+
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7vh;
+    align-items: center;
+}
+.logo{
+    width: 20vw;
+}
+.head h3{
+    font-size: 2.3rem;
+    color: whitesmoke;
+    font-weight: 400;
+
+}
+.search{
+    display: flex;
+    width: 55vw;
+    border-radius: 10px;
+    align-items: center;
+    background: white;
+    padding: 5px 4px; 
+}
+.search .search_icon{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.search .search_icon p{
+    color: grey;
+    border-right:1px solid grey;
+    font-size:15px ;
+    margin-right: 10px;
+    margin: 10px;
+}
+.search .search_icon input{
+    outline: none;
+    border: none;
+    width: 200%;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.search .search_icon:first-child{
+    color: palevioletred;
+    width: 30%;
+}
+.search .search_icon:last-child{
+    color:grey;
+    width: 40%;
+}
+
+/* section-1 */
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-bottom: 4rem;
+}
+.section-1 .section-1-item{
+    position: relative;
+    width: 15rem;
+    margin: 3px 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    background:white ;
+    border: 1px solid rgb(214, 210, 210);
+}
+.section-1 .section-1-item img{
+    width: 100%;
+    border: 1px solid  rgb(214, 210, 210);
+    border-radius: 10px;
+    z-index: -1;
+
+}
+.section-1 .section-1-item .item-details{
+    position: absolute;
+    bottom: 3px;
+    align-items: center;
+    border: 0 0 10px 10px;
+    background: white;
+    height: 25%;
+    z-index: 2;
+    width: 100%;
+}
+.section-1 .section-1-item .item-details p{
+    text-align: center;
+}
+/* section-2 */
+.section-2{
+    width:1080px;
+    margin:0 auto ;
+    margin-bottom: 4rem;
+    
+    
+}
+
+.section-2-heading{
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+.section-2 .section-2-container .section-2-items{
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+.section-2 .section-2-container .section-2-items .section-2-item{
+    width: 100%;
+    max-width:26% ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(223, 213, 213);
+    /* padding: 0 60px 0 60px; */
+    padding: 20px;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+}
+.section-2-item .item-head{
+    font-size: 1.2rem;
+    color: grey;
+    margin: 0;
+    margin-bottom: 5px;
+} 
+.section-2-item .subhead{
+    font-weight: lighter;
+    color: grey;
+    margin: 0;
+}
+
+/* section-3 */
+.section-3{
+    height: 620px;
+    background-color: rgb(255,251,247);
+}
+.section-3-container{
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-3-img img{
+   width: 400px;
+
+}
+
+.section-3-download{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+
+}
+.section-3-download h1{
+    margin-bottom: 0;
+}
+
+.section-3-download p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 234, 243);
+}
